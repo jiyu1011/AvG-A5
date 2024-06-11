@@ -12,8 +12,8 @@
     },
     {
       "id": 3,
-      "name": "Fakultät für Betriebswirtschaft",
-      "kostenstelle": "BWL001"
+      "name": "Fakultät für Wirtschaftwissenschaft",
+      "kostenstelle": "WW001"
     }
   ],
 
@@ -79,9 +79,9 @@
     {
       "id": 1,
       "antragstellerId": 5,
-      "Personalnummer": "E005",
-      "Vorname": "Anna",
-      "Nachname": "Müller", 
+      "personalnummer": "E005",
+      "vorname": "Anna",
+      "nachname": "Müller", 
       "abteilung": 2,
       "startDatum": "2023-07-01",
       "endDatum": "2023-07-05",
