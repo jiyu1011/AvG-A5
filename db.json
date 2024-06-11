@@ -1,0 +1,142 @@
+{
+  "abteilungen": [
+    {
+      "id": 1,
+      "name": "Personalabteilung",
+      "kostenstelle": "HR001"
+    },
+    {
+      "id": 2,
+      "name": "Fakultät für Informatik", 
+      "kostenstelle": "INF001"
+    },
+    {
+      "id": 3,
+      "name": "Fakultät für Betriebswirtschaft",
+      "kostenstelle": "BWL001"
+    }
+  ],
+
+  "projekte": [
+    {
+      "id": 1,
+      "name": "Forschungsprojekt A",
+      "kostenstelle": "PROJ001"
+    },
+    {
+      "id": 2,
+      "name": "Entwicklungsprojekt B",
+      "kostenstelle": "PROJ002" 
+    }
+  ],
+
+  "angestellte": [
+    {
+      "id": 1,
+      "personalnummer": "E001",
+      "vorname": "Max",
+      "nachname": "Mustermann", 
+      "abteilung": 1
+    },
+    {
+      "id": 2,
+      "personalnummer": "E002",
+      "vorname": "Erika",
+      "nachname": "Musterfrau",
+      "abteilung": 2
+    },
+    {
+      "id": 3,
+      "personalnummer": "E003",
+      "vorname": "John", 
+      "nachname": "Doe",
+      "abteilung": 2
+    },
+    {
+      "id": 4,
+      "personalnummer": "E004",
+      "vorname": "Jane",
+      "nachname": "Smith", 
+      "abteilung": 3
+    },
+    {
+      "id": 5,
+      "personalnummer": "E005",
+      "vorname": "Anna",
+      "nachname": "Müller",
+      "abteilung": 2
+    },
+    {
+      "id": 6,
+      "personalnummer": "E006", 
+      "vorname": "Hans",
+      "nachname": "Meier",
+      "abteilung": 3
+    }
+  ],
+
+  "dienstreiseAntraege": [
+    {
+      "id": 1,
+      "antragstellerId": 5,
+      "Personalnummer": "E005",
+      "Vorname": "Anna",
+      "Nachname": "Müller", 
+      "abteilung": 2,
+      "startDatum": "2023-07-01",
+      "endDatum": "2023-07-05",
+      "geplanteKosten": 1500,
+      "kostenstelle": "PROJ001",
+      "projekt": 1,
+      "zielort": "Berlin",
+      "grund": "Konferenzteilnahme",  
+      "status": "genehmigt"
+    },
+    {
+      "id": 2,
+      "antragstellerId": 5,
+      "personalnummer": "E005",
+      "vorname": "Anna",
+      "nachname": "Müller",
+      "abteilung": 2,
+      "startDatum": "2023-08-15",
+      "endDatum": "2023-08-17",
+      "geplanteKosten": 800,
+      "kostenstelle": "INF001",
+      "projekt": null,
+      "zielort": "München", 
+      "grund": "Weiterbildung",
+      "status": "abgelehnt"
+    },
+    {
+      "id": 3,
+      "antragstellerId": 3,
+      "personalnummer": "E003",
+      "vorname": "John",
+      "nachname": "Doe",
+      "abteilung": 2,  
+      "startDatum": "2023-09-10",
+      "endDatum": "2023-09-12",
+      "geplanteKosten": 1200,
+      "kostenstelle": "PROJ002", 
+      "projekt": 2,
+      "zielort": "Hamburg",
+      "grund": "Projektmeeting",
+      "status": "in Bearbeitung" 
+    }
+  ],
+
+  "reisekostenAbrechnungen": [
+    {
+      "id": 1,
+      "dienstreiseAntragId": 1,
+      "tatsaechlicheKosten": 1450,
+      "berechnetePauschalen": 112,
+      "belegeEingereicht": true,
+      "pruefungPersonalabteilung": true,
+      "kommentarPersonalabteilung": "",
+      "auszahlungsbetrag": 1562,
+      "abgeschlossen": true
+    }
+  ]
+}
