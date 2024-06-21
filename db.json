@@ -7,7 +7,7 @@
     },
     {
       "id": 2,
-      "name": "Fakultät für Informatik", 
+      "name": "Fakultät für Informatik",
       "kostenstelle": "INF001"
     },
     {
@@ -16,7 +16,6 @@
       "kostenstelle": "WW001"
     }
   ],
-
   "projekte": [
     {
       "id": 1,
@@ -26,16 +25,15 @@
     {
       "id": 2,
       "name": "Entwicklungsprojekt B",
-      "kostenstelle": "PROJ002" 
+      "kostenstelle": "PROJ002"
     }
   ],
-
   "angestellte": [
     {
       "id": 1,
       "personalnummer": "E001",
       "vorname": "Max",
-      "nachname": "Mustermann", 
+      "nachname": "Mustermann",
       "abteilung": 1
     },
     {
@@ -48,7 +46,7 @@
     {
       "id": 3,
       "personalnummer": "E003",
-      "vorname": "John", 
+      "vorname": "John",
       "nachname": "Doe",
       "abteilung": 2
     },
@@ -56,7 +54,7 @@
       "id": 4,
       "personalnummer": "E004",
       "vorname": "Jane",
-      "nachname": "Smith", 
+      "nachname": "Smith",
       "abteilung": 3
     },
     {
@@ -68,25 +66,24 @@
     },
     {
       "id": 6,
-      "personalnummer": "E006", 
+      "personalnummer": "E006",
       "vorname": "Hans",
       "nachname": "Meier",
       "abteilung": 3
     }
   ],
-
   "dienstreiseAntraege": [
     {
       "id": 1,
       "personalnummer": "E005",
       "vorname": "Anna",
-      "nachname": "Müller", 
+      "nachname": "Müller",
       "abteilungs_ID": 2,
       "startdatum": "2023-07-01",
       "enddatum": "2023-07-05",
       "geplante_Kosten": 1500,
       "kostenstelle": "PROJ001",
-      "projekt_ID": 1,
+      "projekt_ID": 1
     },
     {
       "id": 2,
@@ -98,22 +95,21 @@
       "enddatum": "2023-08-17",
       "geplante_Kosten": 800,
       "kostenstelle": "INF001",
-      "projekt_ID": null,
+      "projekt_ID": null
     },
     {
       "id": 3,
       "personalnummer": "E003",
       "vorname": "John",
       "nachname": "Doe",
-      "abteilungs_ID": 2,  
+      "abteilungs_ID": 2,
       "startdatum": "2023-09-10",
       "enddatum": "2023-09-12",
       "geplante_Kosten": 1200,
-      "kostenstelle": "PROJ002", 
-      "projekt_ID": 2,
+      "kostenstelle": "PROJ002",
+      "projekt_ID": 2
     }
   ],
-
   "abrechnungen": [
     {
       "personalnummer": "E005",
