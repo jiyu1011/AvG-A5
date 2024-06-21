@@ -78,65 +78,86 @@
   "dienstreiseAntraege": [
     {
       "id": 1,
-      "antragstellerId": 5,
       "personalnummer": "E005",
       "vorname": "Anna",
       "nachname": "Müller", 
-      "abteilung": 2,
-      "startDatum": "2023-07-01",
-      "endDatum": "2023-07-05",
-      "geplanteKosten": 1500,
+      "abteilungs_ID": 2,
+      "startdatum": "2023-07-01",
+      "enddatum": "2023-07-05",
+      "geplante_Kosten": 1500,
       "kostenstelle": "PROJ001",
-      "projekt": 1,
-      "zielort": "Berlin",
-      "grund": "Konferenzteilnahme",  
-      "status": "genehmigt"
+      "projekt_ID": 1,
     },
     {
       "id": 2,
-      "antragstellerId": 5,
       "personalnummer": "E005",
       "vorname": "Anna",
       "nachname": "Müller",
-      "abteilung": 2,
-      "startDatum": "2023-08-15",
-      "endDatum": "2023-08-17",
-      "geplanteKosten": 800,
+      "abteilungs_ID": 2,
+      "startdatum": "2023-08-15",
+      "enddatum": "2023-08-17",
+      "geplante_Kosten": 800,
       "kostenstelle": "INF001",
-      "projekt": null,
-      "zielort": "München", 
-      "grund": "Weiterbildung",
-      "status": "abgelehnt"
+      "projekt_ID": null,
     },
     {
       "id": 3,
-      "antragstellerId": 3,
       "personalnummer": "E003",
       "vorname": "John",
       "nachname": "Doe",
-      "abteilung": 2,  
-      "startDatum": "2023-09-10",
-      "endDatum": "2023-09-12",
-      "geplanteKosten": 1200,
+      "abteilungs_ID": 2,  
+      "startdatum": "2023-09-10",
+      "enddatum": "2023-09-12",
+      "geplante_Kosten": 1200,
       "kostenstelle": "PROJ002", 
-      "projekt": 2,
-      "zielort": "Hamburg",
-      "grund": "Projektmeeting",
-      "status": "in Bearbeitung" 
+      "projekt_ID": 2,
     }
   ],
 
-  "reisekostenAbrechnungen": [
+{
+  "abrechnungen": [
     {
-      "id": 1,
-      "dienstreiseAntragId": 1,
-      "tatsaechlicheKosten": 1450,
-      "berechnetePauschalen": 112,
-      "belegeEingereicht": true,
-      "pruefungPersonalabteilung": true,
-      "kommentarPersonalabteilung": "",
-      "auszahlungsbetrag": 1562,
-      "abgeschlossen": true
+      "personalnummer": "E005",
+      "abteilungs_ID": 2,
+      "vorname": "Anna",
+      "nachname": "Müller",
+      "startdatum": "2023-07-01",
+      "enddatum": "2023-07-05",
+      "kostenstelle": "PROJ001",
+      "stundenpauschale": 50,
+      "uebernachtungspauschale": 200,
+      "frühstückspauschale": 15,
+      "essenspauschale": 30,
+      "entscheidung": "bestätigen"
+    },
+    {
+      "personalnummer": "E005",
+      "abteilungs_ID": 2,
+      "vorname": "Anna",
+      "nachname": "Müller",
+      "startdatum": "2023-08-15",
+      "enddatum": "2023-08-17",
+      "kostenstelle": "INF001",
+      "stundenpauschale": 50,
+      "uebernachtungspauschale": 180,
+      "frühstückspauschale": 10,
+      "essenspauschale": 25,
+      "entscheidung": "bestätigen"
+    },
+    {
+      "personalnummer": "E003",
+      "abteilungs_ID": 2,
+      "vorname": "John",
+      "nachname": "Doe",
+      "startdatum": "2023-09-10",
+      "enddatum": "2023-09-12",
+      "kostenstelle": "PROJ002",
+      "stundenpauschale": 60,
+      "uebernachtungspauschale": 220,
+      "frühstückspauschale": 20,
+      "essenspauschale": 35,
+      "entscheidung": "rückfragen"
     }
   ]
+}
 }
