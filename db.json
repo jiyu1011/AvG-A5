@@ -114,7 +114,6 @@
     }
   ],
 
-{
   "abrechnungen": [
     {
       "personalnummer": "E005",
@@ -159,5 +158,4 @@
       "entscheidung": "rückfragen"
     }
   ]
-}
 }
